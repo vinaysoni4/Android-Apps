@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.vrsn a:hover { text-decoration: none;}
+.vrsn .container {
+	padding-left: 0;
+	padding-right: 0;
+}
+.vrsn header h1 {
+	font-weight: normal;
+	font-size: 18px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 2.5em;
+}
+.vrsn header .btn {
+	background: none;
+}
+.vrsn .list-group-item:first-child {
+	border-top: none;
+}
+.vrsn .list-group-item {
+	border-left: none;
+	border-right: none;
+	background: transparent url(../images/list-item-arrow-right.png) no-repeat right center;
+}
+.vrsn .list-group-item a {display:block;}
+.vrsn .list-group-item .item-cost {color: #000; font-weight: bold; padding-right: 15px;}
+.vrsn .list-group-item .item-name {font-weight: normal; color: #000;}
+.vrsn .list-group-item .item-date {color: #999;}
+.vrsn .list-group-item .item-status-warning {color: #f0ad4e;}
+.vrsn .list-group-item .item-status-danger {color: #d9534f;}
+.vrsn .list-group-item .item-status-success {color: #5cb85c;}
